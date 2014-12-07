@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:id="@+id/soundpref"
+                        android:key="sound"
+                        android:title="Sound"
+                        android:summary="On/Off">
+    </CheckBoxPreference>
+    <EditTextPreference android:id="@+id/namepref"
+                        android:key="name"
+                        android:title="Name"
+                        android:summary="Your name"
+                        android:maxLength="10">
+    </EditTextPreference>
+
+    <ListPreference
+            android:key="level"
+            android:title="Level"
+            android:summary="Set level"
+            android:defaultValue="1"
+            android:enabled="true"
+            android:entries="@array/numArr"
+            android:entryValues="@array/numArr"/>
+    <ListPreference android:key="difficulty"
+                    android:title="Difficulty"
+                    android:summary="Set difficulty"
+                    android:defaultValue="0"
+                    android:enabled="true"
+                    android:entries="@array/diffNames"
+                    android:entryValues="@array/diffArr"/>
+
+
+</PreferenceScreen>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <TextView android:id="@+id/hiscoretitle"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:textSize="25sp"
+              android:gravity="center"
+              android:padding="5dp"
+            />
+
+    <ListView android:id="@android:id/list"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+            />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="bottom">
+        <Button android:id="@+id/prevlevelhibutton"
+                android:layout_height="wrap_content"
+                android:layout_width="105dp"
+                android:layout_alignParentLeft="true"
+                android:text="Previous"
+                />
+        <Button android:id="@+id/exitbuttonhi"
+                android:layout_height="wrap_content"
+                android:layout_width="105dp"
+                android:layout_alignParentRight="true"
+                android:text="Exit"
+                />
+        <Button android:id="@+id/nextlevelhibutton"
+                android:layout_height="wrap_content"
+                android:layout_width="105dp"
+                android:layout_toRightOf="@id/prevlevelhibutton"
+                android:layout_toLeftOf="@id/exitbuttonhi"
+                android:text="Next"
+                />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MergeBalls</string>
+    <string name="hiscoretitle">Level 1</string>
+    <string name="about">\nMergeBalls is a fun and simple game for the Android platform. There are 3 difficulty settings and
+    20 levels per difficulty. Playing the higher levels might need a more powerful phone due to the amount of objects to be rendered on screen.
+    \n\nStart by filling in your name and choose your settings in the Preferences menu. Playing the game itself is easy. Try to encircle
+    balls of the same color to merge them into larger balls. When all balls of the same color have been merged you have beat the level. A shorter time is better
+    which means that the lowest score is the best. There are both local and online hi-scores, so have fun!\n</string>
+    <string name="aboutTitle">About MergeBalls</string>
+</resources>
